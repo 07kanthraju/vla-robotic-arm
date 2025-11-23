@@ -1,13 +1,36 @@
-# Ignore virtual environments
-.venv*
-venv/
+# --- Python ---
 __pycache__/
-*.pyc
+*.py[cod]
 *.pyo
 *.pyd
-
-# Ignore build artifacts
+*.pkl
+*.egg-info/
 *.so
 *.dll
 *.dylib
-.venv310/
+.DS_Store
+
+# --- Environments ---
+.venv*/
+venv/
+env/
+ENV/
+
+# --- Build / Logs ---
+build/
+dist/
+*.log
+*.out
+*.bak
+*.tmp
+
+# --- OS and IDE ---
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Arduino ---
+*.hex
+*.elf
+
