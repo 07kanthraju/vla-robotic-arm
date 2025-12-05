@@ -1,4 +1,4 @@
-# vla-robotic-arm
+# opencv-robotic-arm
 
 cd opencv-robotic-arm
 
